@@ -1,0 +1,10 @@
+# .gitignore
+
+# Generated
+*.bin
+*.o
+obj
+
+# Media
+assets
+screenshots
