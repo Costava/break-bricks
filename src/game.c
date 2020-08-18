@@ -137,7 +137,7 @@ void game_setup(struct game *const game) {
 		 for (double x = -(half_num_columns + 1)
 		                 * (brick_size_x + 2.0 * brick_margin_x);
 		      x <= half_num_columns * (brick_size_x + 2.0 * brick_margin_x)
-		           + 1.0 /* +1 because floating point inaccurary */;
+		           + 1.0 /* +1 because floating point inaccuracy */;
 		      x += brick_size_x + 2.0 * brick_margin_x)
 		{
 			struct brick *brick = easy_malloc(sizeof(struct brick));
