@@ -10,9 +10,10 @@
 - - SDL2
 - - SDL2_image
 
-![Break Bricks](https://i.imgur.com/eQeMZWc.png)  
-![Break Bricks](https://i.imgur.com/xkX8MjZ.png)  
-![Break Bricks](https://i.imgur.com/tKcg5cx.gif)  
+![Break Bricks](https://i.imgur.com/eQeMZWc.png)
+![Break Bricks](https://i.imgur.com/xkX8MjZ.png)
+
+![Break Bricks](https://i.imgur.com/F3AWMgp.gif)
 
 ## How to run
 
