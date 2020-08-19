@@ -10,6 +10,10 @@
 - - SDL2
 - - SDL2_image
 
+![Break Bricks](https://i.imgur.com/eQeMZWc.png)  
+![Break Bricks](https://i.imgur.com/xkX8MjZ.png)  
+![Break Bricks](https://i.imgur.com/tKcg5cx.gif)  
+
 ## How to run
 
 1. Clone the repo
