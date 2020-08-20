@@ -9,7 +9,7 @@ OPTIMIZATION_FLAG:=-O0
 # Additional places to find C header files
 ALSO_INCLUDE:=-I$(SRCDIR) -I$(EXTDIR)
 
-CFLAGS:=-Wall -fopenmp $(OPTIMIZATION_FLAG) $(ALSO_INCLUDE)
+CFLAGS:=-Wall $(OPTIMIZATION_FLAG) $(ALSO_INCLUDE)
 
 # Recipe for building what will be a dependency of the main executable
 BUILD_DEP=$(CC) $^ -c --output $@ $(CFLAGS)
@@ -37,6 +37,7 @@ clean:
 
 # `-lm` was added after needing `round` function in <math.h>
 #  in order to avoid a compilation error
+# Add `-fopenmp` if OpenMP is used
 main.bin: ./main/main.c \
 	$(OBJDIR)/charu.o \
 	$(OBJDIR)/easy_alloc.o \
