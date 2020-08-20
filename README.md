@@ -10,9 +10,6 @@
 - - SDL2
 - - SDL2_image
 
-![Break Bricks](https://i.imgur.com/eQeMZWc.png)
-![Break Bricks](https://i.imgur.com/xkX8MjZ.png)
-
 ![Break Bricks](https://i.imgur.com/F3AWMgp.gif)
 
 ## How to run
@@ -39,3 +36,9 @@ You can download the assets [here](https://github.com/Costava/break-bricks/relea
 ## Contributing
 Not currently accepting contributions.  
 Feel free to open an issue.
+
+## Screenshots
+
+![Break Bricks](https://i.imgur.com/eQeMZWc.png)
+
+![Break Bricks](https://i.imgur.com/xkX8MjZ.png)
