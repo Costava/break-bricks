@@ -25,11 +25,7 @@ init:
 run: build
 	./main.bin
 
-runfresh: clean run
-
 build: main.bin
-
-buildfresh: clean build
 
 clean:
 	rm -f $(OBJDIR)/*.o
